@@ -1,2 +1,2 @@
 #!/bin/bash
-read words > cat words | sort | uniq
+grep [a-zA-Z] | sort | uniq
