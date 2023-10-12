@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -aR *.gif | find . -maxdepth1 -not type d | cut -d. -f9 | sort -S --ignore-case
