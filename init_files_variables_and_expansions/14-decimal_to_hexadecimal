@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(( $((16#${DECIMAL})) - $((16#6)) ))\n"
+printf "%x\n" ${DECIMAL}
