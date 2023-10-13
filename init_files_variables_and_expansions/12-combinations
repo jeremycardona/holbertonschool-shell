@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -ne {a..z}{a..z}"\n"| tr -s "oo" | sort
+echo -ne {a..z}{a..z}| tr -s "oo" | tr " " "\n" | sort
